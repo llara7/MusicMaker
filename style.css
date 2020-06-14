@@ -1,12 +1,16 @@
 header h1{
   margin: 50px 0px 30px 0px;
-  font-size: 50px;
+  text-align: center;
+  font-size: 70px;
+}
+header p{
+  font-size: 30px;
 }
 .app{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: lavender
 }
@@ -14,6 +18,7 @@ header h1{
   background: lightsalmon;
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .pads > div {
   height: 100px;
@@ -47,4 +52,43 @@ header h1{
 }
 .pad9{
   background: rgb(39, 250, 222);
+}
+.tads{
+  background: rgb(36, 20, 13);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tads > div {
+  height: 100px;
+  width: 100px;
+ flex: 1;
+
+}
+.tad1{
+  background: blue;
+}
+.tad2{
+  background: rgb(243, 4, 151);
+}
+.tad3{
+  background: gray;
+}
+.tad4{
+  background: azure;
+}
+.tad5{
+  background: rgb(74, 241, 130);
+}
+.tad6{
+  background: rgb(241, 185, 248);
+}
+.tad7{
+  background: rgb(235, 8, 8);
+}
+.tad8{
+  background: rgb(85, 39, 250);
+}
+.tad9{
+  background: rgb(46, 250, 39);
 }
